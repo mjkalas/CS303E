@@ -38,7 +38,7 @@ def main():
   # compute m
   m = (a+11*h) // 319
   # compute r
-  r = (2*e+2*j-k-h++32) % 7
+  r = (2*e+2*j-k-h+32) % 7
   # compute n
   n = (h-m+r+90) // 25
   # compute p
