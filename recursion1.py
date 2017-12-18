@@ -1,13 +1,3 @@
-#  File: recursion1.py 
-#  Description:
-#  Student Name:  Minal Kalas
-#  Student UT EID: mjk863
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 11/14/15
-#  Date Last Modified: 11/15/15
-
-
 # Given n of 1 or more, return the factorial of n, 
 # which is n * (n-1) * (n-2) ... 1.
 # Compute the result recursively (without loops). 
