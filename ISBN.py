@@ -1,12 +1,3 @@
-#  File: ISBN.py
-#  Description: This program validates inputted ISBNs.
-#  Student Name: Minal Kalas
-#  Student UT EID: mjk863
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 10/21/15
-#  Date Last Modified: 10/23/15
-
 def partial_sum (a):
   par_sum = []
   y = 0
