@@ -1,12 +1,3 @@
-#  File: Goldbach.py
-#  Description: This program verifies Goldbach's Conjecture for a user-inputted range of numbers.
-#  Student Name: Minal Kalas
-#  Student UT EID: mjk863
-#  Course Name: CS 303E
-#  Unique Number:50475
-#  Date Created: 09/21/15
-#  Date Last Modified: 09/24/15
-
 # check if a number is prime
 def is_prime (n):
   limit = int (n ** 0.5) + 1
