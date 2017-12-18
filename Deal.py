@@ -1,12 +1,3 @@
-# File: Deal.py
-# Description:
-# Student Name: Minal Kalas
-# Student UT EID: mjk863
-# Course Name: CS 303E
-# Unique Number: 50475
-# Date Created: 10/05/15
-# Date Last Modified: 10/07/15
-
 import random
 
 def main ():
