@@ -1,14 +1,3 @@
-#  File: Grid.py
-#  Description: This program finds the greatest product of four numbers in the same direction in a grid.
-#  Student Name: Minal Kalas
-#  Student UT EID: mjk863
-#  Partner Name: None
-#  Partner UT EID: none
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 10/27/15
-#  Date Last Modified: 10/29/15
-
 # prints the product of diagonal going right to left
 def prod_rl (b):
   prod = 1
