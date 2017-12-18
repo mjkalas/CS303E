@@ -1,12 +1,3 @@
-#  File: CalculatePI.py
-#  Description: This program calculates the value of pi through genenrating random points within two nested shapes.
-#  Student Name: Minal Kalas
-#  Student UT EID: mjk863
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 09/29/15:
-#  Date Last Modified: 10/01/15
-
 import math
 import random
 
