@@ -1,19 +1,3 @@
-#  File: FibonacciBase.py
-
-#  Description: This program uses a modified Fibonacci Series
-
-#  Student Name: Minal Kalas
-
-#  Student UT EID: mjk863
-
-#  Course Name: CS 303E
-
-#  Unique Number: 50475
-
-#  Date Created: 11/08/15
-
-#  Date Last Modified: 11/09/15
-
 def convert_fib_base(num):
 	Fib_series = [1, 2]
 	for i in range (0, num):
