@@ -1,13 +1,3 @@
-#  File: Hailstone.py
-#  Description: This program finds the number in the given range with the longest cycle length.
-#  Student Name: Minal Kalas
-#  Student UT EID: mjk863
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 09/17/15
-#  Date Last Modified: 09/20/15
-
-
 def main():
   # prompt the user to enter starting and ending numbers
   l = int (input ("Enter starting number of the range:"))
