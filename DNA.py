@@ -1,19 +1,3 @@
-#  File: DNA.py
-
-#  Description:
-
-#  Student Name: Minal Kalas
-
-#  Student UT EID: mjk863
-
-#  Course Name: CS 303E
-
-#  Unique Number: 50475
-
-#  Date Created: 10/13/15
-
-#  Date Last Modified: 10/14/15
-
 def main():
   # open file for reading
   in_file =  open ("./dna.txt", "r")
