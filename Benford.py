@@ -1,12 +1,3 @@
-#  File: Benford.py
-#  Description: This program verifies Benford's Law for the 2009 US Census data.
-#  Student Name: mjk863
-#  Student UT EID: Minal Kalas
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 11/22/15
-#  Date Last Modified: 11/23/15
-
 # Outline of Benford.py
 def main():
   # create an empty dictionary
