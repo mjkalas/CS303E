@@ -1,19 +1,3 @@
-#  File: EasterSunday.py
-
-#  Description: This program computes the date of Easter Sunday given any year.
-
-#  Student Name: Minal Kalas
-
-#  Student UT EID: mjk863
-
-#  Course Name: CS 303E
-
-#  Unique Number: 50475
-
-#  Date Created: 09/08/15
-
-#  Date Last Modified: 09/08/15
-
 def main():
   #prompt the user to enter the year
   y = int (input ("Enter year: "))
