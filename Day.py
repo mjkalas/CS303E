@@ -1,12 +1,3 @@
-#  File: Day.py
-#  Description: This  program calculates the day of the week of any given date.
-#  Student Name: Minal Kals
-#  Student UT EID: mjk863
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 09/15/15
-#  Date Last Modified: 09/16/15
-
 def main():
   # prompt the user to enter year
   year = int (input ("Enter year: "))
