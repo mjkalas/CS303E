@@ -1,20 +1,3 @@
-#  File: recursion2.py 
-
-#  Description:
-
-#  Student Name:
-
-#  Student UT EID:
-
-#  Course Name: CS 303E
-
-#  Unique Number: 
-
-#  Date Created:
-
-#  Date Last Modified:
-
-
 # Given an array of ints, is it possible to choose a group of some 
 # of the ints, such that the group sums to the given target? 
 # This is a classic backtracking recursion problem. Once you 
