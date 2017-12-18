@@ -1,12 +1,3 @@
-#  File: GuessingGame.py
-#  Description: This program guesses a user-inputted number in under 7 tries.
-#  Student Name: Minal Kalas
-#  Student UT EID: mjk863
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 10/29/15
-#  Date Last Modified: 11/01/15
-
 def main ():
   a = []
   for i in range (1, 101):
