@@ -1,12 +1,3 @@
-#  File: CreditCard.py
-#  Description: This program determines if a credit card number is valid.
-#  Student Name: Minal Kalas
-#  Student UT EID: mjk863
-#  Course Name: CS 303E
-#  Unique Number: 50475
-#  Date Created: 10/24/15
-#  Date Last Modified: 10/26/15
-
 # This function checks if a credit card number is valid
 def is_valid (cc_num):
   length = len(cc_num)
