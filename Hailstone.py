@@ -1,35 +1,28 @@
-def main():
-  # prompt the user to enter starting and ending numbers
-  l = int (input ("Enter starting number of the range:"))
-  h = int (input ("Enter ending number of the range:"))
-  while ((l < 1) or (h < 1) or (l > h)):
-      l = int (input ("Enter starting number of the range:"))
-      h = int (input ("Enter ending number of the range:"))
+def hailstone (start, end):
+    count = 0
+    num = 0
+    for i in range (start, (end + 1)):
+        length = 0
+        initial = i
+        while i != 1:
+            if i % 2 == 0:
+                i = (i // 2)
+            else:
+                i = (3 * i + 1)
+            length += 1
+            if length > count:
+                count = length
+                num = initial
 
-  #define variables
+    print("The number " + str(num) + " has the longest cycle length of " + str(count) + ".")
 
+def main ():
+    start = input("Please enter a starting number: ")
+    while not start.isdigit():
+        start = input("Please enter a starting number: ")
+    end = input("Please enter an ending number: ")
+    while not end.isdigit():
+        end = input("Please enter an ending number: ")
 
-  #run algorithm
-  for n in range (l, h+1):
-    max_num = 0
-    max_length = 0
-    num = n
-    cycle_length = 0
-    while (n > 1):
-      if (n % 2 == 0):
-        n = (n // 2)
-        cycle_length += 1
-      else:
-        if (n % 2 == 1):
-          n = (3 * n + 1)
-          cycle_length += 1
-
-  #get max cycle length
-  if (cycle_length > max_length):
-    max_length = cycle_length
-    max_num = num
-
-  # print results
-  print ("The number", max_num, "has the longest cycle length of", str(max_length)+".")
-
+    hailstone (int(start), int(end))
 main()
