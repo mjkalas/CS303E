@@ -1,6 +1,8 @@
 def is_prime (n):
   limit = int (n ** 0.5) + 1
   divisor = 2
+  if (n == 1):
+	  return False
   while (divisor < limit):
     if (n % divisor == 0):
       return False
